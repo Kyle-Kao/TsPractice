@@ -58,7 +58,7 @@ if (typeof userInput === 'string') {
 }
 /*
   type never : 表示永遠不存在的值
-  1. 應該要回傳卻沒有回傳的函示 ， EX: 無窮迴圈，沒有熱和結束的執行點
+  1. 應該要回傳卻沒有回傳的函示 ， EX: 無窮迴圈，沒有任何結束的執行點
   2. 總是拋出錯誤的函示
 */
 function generateError(message, code) {
